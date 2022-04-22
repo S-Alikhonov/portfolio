@@ -1,0 +1,24 @@
+{% macro card(cover_img,title,text,link) %}
+
+<div class="card">
+    <img src={{cover_img}} class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{title}}</h5>
+      <p class="card-text">{{text}}</p>
+      <a href={{link}} class="btn btn-primary">Explore</a>
+    </div>
+  </div>
+{%endmacro%}
+
+
+  {% macro minimal_card(type,title,description,link)%}
+  {%from 'components/button.html' import button %}
+  <div class="card border-warning mb-3">
+    <div class="card-header">{{type}}</div>
+    <div class="card-body">
+      <h5 class="card-title">{{title}}</h5>
+      <p class="card-text">{{description}}</p>
+      {{button('explore',link)}}
+    </div>
+    </div>
+  {%endmacro%}

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{%block content%}
+{%from 'components/listing.html' import listing %}
+<div class="container saidalikhon mt-5">
+    <h1><span class='my-name'>I'm Said</span>alikhon Alikhonov</h1>
+    <p>Data Scientist<span class='my-name'> / </span>AI engineer</p>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-4 mb-3">
+        <div class='interests-hobbies text-center text-md-end mt-md-5 pt-md-5 ps-3'>
+            <div class='hobbies mb-5'>
+                {{listing(bio['hobbies']['title'],bio['hobbies']['elements'])}}
+            </div>
+        
+            <div class='interest mb-5'>
+                {{listing(bio['interests']['title'],bio['interests']['elements'])}}
+            </div>
+            <div class='education mb-5'>
+                {{listing(bio['education']['title'],bio['education']['elements'])}}
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-4 mb-5 d-flex justify-content-center">
+        <img class='avatar-2' src="{{url_for('static',filename='images/about.png')}}" alt="">
+    </div>
+    <div class="col-xs-12 col-md-4 mb-3">
+        <div class="technologies text-center text-md-start mt-md-5 pt-md-5">
+            {{listing(bio['techno']['title'],bio['techno']['elements'])}}
+    
+        </div>
+    </div>
+</div>
+{%endblock%}

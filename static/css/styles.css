@@ -1,0 +1,71 @@
+:root {
+    --primary-font: 'Dosis', sans-serif;
+    --secondary-font: 'Exo', sans-serif;
+    --helper-font: 'Kulim Park', sans-serif;
+    --auxilary-font: 'Oxanium', cursive;
+    --main-font: 'Montserrat', sans-serif;
+    --black: #000000ff;
+    --dim-black: #010101;
+    --dim-gray: #66666eff;
+    --manatee: #9999a1ff;
+    --platinum: #e6e6e9ff;
+    --cultured: #f4f4f6ff;
+}
+.navbar-togler {
+    background-image: solid 1px #ffc600 !important;
+}
+.navbar {
+    background-color: #010101;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+
+}
+.navbar a {
+    color:var(--platinum) !important;
+    font-family: var(--auxilary-font) !important;
+}
+.navbar a:hover {
+    color: #ffc600 !important;
+    font-family: var(--auxilary-font) !important;
+    font-size: 1.5rem;
+    line-height: 0.8;
+}
+body {
+    background-color: #010101
+}
+
+footer {
+    padding: 30px;
+    background: rgba(245, 245, 245, 0);
+    color: var(--manatee);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+
+/* projects:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} */
+.foot {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.btn {
+    background: var(--platinum);
+    color: var(--dim-black);
+    font-size: 10px;
+
+}
+.btn:hover {
+    background: #ffc600;
+    color: var(--dim-black);
+}
+.texts {
+    margin-top: 15vw;
+
+}
+
+
+
