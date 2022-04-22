@@ -2,3 +2,4 @@ Flask
 Werkzeug
 MarkupSafe
 Jinja2
+gunicorn
