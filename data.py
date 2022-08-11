@@ -59,7 +59,7 @@ bio = {
     },
     'education':{
         'title':'Education',
-        'elements':['BSc in Mechanical Engineering - 2014-2019','MSc in Engineering and Management - 2019 - present']
+        'elements':['BSc in Mechanical Engineering - 2014-2019','MSc in Engineering and Management - 2019 - 2022']
     },
     'techno':{   
         'title':'Technologies I Use',
