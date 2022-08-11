@@ -78,6 +78,7 @@ bio = {
            'Flask',
            'Beautiful Soup',
            'Selenium',
+           'PostgreSQL'
         ]
 
     }
