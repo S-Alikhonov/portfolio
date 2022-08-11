@@ -3,7 +3,7 @@
 descriptions = ['This project is in the form of web site for EDA, data visualisation and web scraping.\
                     As dataset top-1000 business books from Good Reads website are chosen and scraped. ',
                     'This fitness application created with Flask framework as web application. It can distinguish\
-                        5 different type of actions using XGBoost ML model with accuracy of >80%.',
+                        five different type of actions using XGBoost ML model with accuracy of >80%.',
                     'Handwritten digits recognizer is powered by CNN model. It takes image containing a hand written\
                         digit or numbers. Using OpenCV functionalities image first be preprocessed, extracts individual\
                         digits then it passes it to CNN model as a input. Finally CNN model predicts and returns the output.',
